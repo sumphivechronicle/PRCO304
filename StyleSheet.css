@@ -1,0 +1,21 @@
+﻿body {
+    width:auto;
+    height:auto;
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+    opacity:0.9;
+}
+#test{position:center;}
+#sticky-footer {
+   
+    background-repeat: repeat;
+    padding: 0;
+    width: auto;
+    height: 200%;
+    overflow: hidden;
+}
+
+

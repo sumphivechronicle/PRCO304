@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head class=" bg-dark text-white">
+    <meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="Script1.js"></script>
+    <script src="jquery-3.4.1.min.js"></script>
+ 
+    <title>test</title>
+
+</head>
+<body class="bg-dark text-white">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">SumpHive Chronicle</a>
+            </div>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="nav navbar-nav">
+                    <li id="homeScreenButton"><a href="Main.html">Home</a></li>
+                    <li id="gangScreenButton"><a href="Gangs.html">Gangs</a></li>
+                    <li id="campaignScreenButton"><a href="Campaigns.html">Campaigns</a></li>
+                </ul>
+                <button class="btn btn-danger navbar-btn" onclick="window.location.href = 'Tools.html';">Game Tools</button>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#SignUp"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#Login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    <div class="jumbotron jumbotron-fluid" id="homescreen">
+
+        <h1 class="col-sm-3 border bg-dark text-white rounded" id="pageTitle"> Sump Hive Chronicle </h1>
+        <div class="container-fluid">
+            <div class="row">
+                <table class="table table-hover table-dark" id="Campaign Table">
+                    <thead>
+                        <tr>
+
+                            <th scope="col">Gang Name </th>
+                            <th scope="col">Gang</th>
+                            <th scope="col">Size</th>
+                            <th scope="col"></th>
+                            <th scope="col">Games Played</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="dataRow">
+
+                            <td>New Gang</td>
+                            <td>Escher</td>
+                            <td>24/1/01</td>
+                            <td>1000</td>
+                            <td>3</td>
+
+                        </tr>
+                        <tr class="dataRow">
+
+
+
+                            <td>The bashers</td>
+                            <td>Goliath</td>
+                            <td>24/12/01</td>
+                            <td>1000</td>
+                            <td>3</td>
+                        </tr>
+                        <tr class="dataRow">
+
+                            <td>Ashe waste renegades</td>
+                            <td>Orlock</td>
+                            <td>4/6/19</td>
+                            <td>1000</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+                <div class="col-sm-3 border bg-dark text-white" id="contentTable">
+                </div>
+                <div class="col-sm-3 border bg-dark text-white pt-3" id="contentTextSecondary">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small teal pt-4">
+        <div class="container-fluid text-center text-md-left text-lg-left">
+            <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <p>
+                        © 2020 Copyright:
+                        This web site is completely unofficial and in no way endorsed by Games Workshop Limited.
+                        40k, Citadel, Citadel Device, the Double-Headed/Imperial Eagle device, Games Workshop, Games Workshop logo, Necromunda, Necromunda stencil logo, Necromunda Plate logo,
+                        Warhammer 40k Device, and all associated marks, names, races, race insignia, characters, vehicles, locations, units, illustrations and the Warhammer 40,000 universe are either ®,
+                        TM and/or © Copyright Games Workshop Ltd 2000-2014, variably registered in the UK and other countries around the world.
+
+                        Used without permission. No challenge to their status intended. All Rights Reserved to their respective owners.
+                    </p>
+                </div>
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-6 mb-md-0 mb-3">
+                    <h5 class="text-uppercase font-weight-bold">Contact Us</h5>
+                    <p>
+                        sumphivechronicle@gmail.com
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">
+            © 2020 Copyright:
+            <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        </div>
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>
